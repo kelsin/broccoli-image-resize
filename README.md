@@ -25,4 +25,5 @@ var outputNode = new BroccoliImageResize(inputNodes, {
 | Option | Description |
 | -- | -- |
 | sizes | The arguments to [sharp's resize](http://sharp.dimens.io/en/stable/api-resize/#resize) function as an array |
+| withoutEnlargement | If set to a truthy value, then the image will never be enlarged |
 | annotation | An annotation for the Broccoli plugin output |

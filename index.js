@@ -42,6 +42,7 @@ ImageResize.prototype.build = function() {
         return image.metadata()
           .then(function(metadata) {
             return image.resize.apply(image, size)
+              .withoutEnlargement(options.withoutEnglargement || false)
               .toFile(path.join(outputPath, filename));
           });
       });

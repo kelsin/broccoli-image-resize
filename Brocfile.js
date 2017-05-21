@@ -2,9 +2,10 @@ var ImageResize = require('./index.js');
 
 var output = new ImageResize(['images'], {
   sizes: {
-    default: [100,100],
-    th: [50,50]
-  }
+    default: [2048],
+    th: [150, 150]
+  },
+  withoutEnlargement: true
 });
 
 module.exports = output;
