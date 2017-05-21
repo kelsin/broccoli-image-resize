@@ -1,6 +1,7 @@
 # Broccoli Image Resize
 
-A plugin to resize images as part of a Broccoli build
+A plugin to resize images as part of a Broccoli build. This plugin
+uses [sharp](http://sharp.dimens.io/en/stable/) to do the image resizing.
 
 ## Usage
 
@@ -23,5 +24,5 @@ var outputNode = new BroccoliImageResize(inputNodes, {
 
 | Option | Description |
 | -- | -- |
-| sizes | The arguments to [sharp](https://github.com/lovell/sharp)'s resize function as an array |
+| sizes | The arguments to [sharp's resize](http://sharp.dimens.io/en/stable/api-resize/#resize) function as an array |
 | annotation | An annotation for the Broccoli plugin output |
