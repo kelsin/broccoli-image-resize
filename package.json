@@ -1,0 +1,23 @@
+{
+  "name": "broccoli-image-resize",
+  "version": "0.0.1",
+  "description": "A plugin to resize images in trees to proper sizes and/or thumbnails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "broccoli-plugin"
+  ],
+  "author": "Christopher Giroir <kelsin@valefor.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "broccoli-plugin": "^1.3.0",
+    "glob": "^7.1.2",
+    "sharp": "^0.17.3"
+  },
+  "devDependencies": {
+    "broccoli": "^1.1.2"
+  }
+}

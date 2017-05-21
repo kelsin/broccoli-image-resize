@@ -1,0 +1,4 @@
+/node_modules
+/npm_build.log
+.DS_Store
+/output
