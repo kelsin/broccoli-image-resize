@@ -24,7 +24,7 @@ ImageResize.prototype.build = function() {
   var options = this.options;
   var outputPath = this.outputPath;
   return Promise.map(this.inputPaths, function(dir) {
-    return Promise.map(glob.sync('**/*.@(gif|jpe?g|png)', {cwd: dir}), function(inputPath) {
+    return Promise.map(glob.sync('**/*.@(gif|jp*(e)g|png)', {cwd: dir}), function(inputPath) {
       inputPath = path.join(dir, inputPath);
       var ext = path.extname(inputPath);
       var basename = path.basename(inputPath, ext);
