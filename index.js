@@ -1,4 +1,4 @@
-var Plugin = require('broccoli-plugin');
+var Plugin = require('broccoli-caching-writer');
 var Promise = require('bluebird');
 var glob = require('glob');
 var path = require('path');
