@@ -1,6 +1,6 @@
 {
   "name": "broccoli-image-resize",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A plugin to resize images in trees to proper sizes and/or thumbnails",
   "main": "index.js",
   "scripts": {
